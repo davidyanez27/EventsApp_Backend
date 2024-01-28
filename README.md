@@ -1,4 +1,4 @@
-# EventsApp
+# EventsApp Backend
 
 1. Dirigirse a esta pagina https://dotnet.microsoft.com/es-es/download y descargar .net.
 2. Descargar e importar la base de datos, en este caso se utilizo mySql como base de datos.
