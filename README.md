@@ -12,6 +12,6 @@ En este caso aplique algunos de los principios de Clean Code con el objetivo de 
 El principio DRY (don't repeat yourself) de manera que las funciones puedan ser utilizadas en muchas clases y no repetir codigo.
 Utilice interfaces para poder tener mayor control sobre los datos y automapper de manera de poder centralizar el mapeo de datos que van hacia la base de datos.
 
-Es importante recalcar que el metodo post y put no funcionan de manera correcta, creo que me equivoque en el diseno de la base de datos, al hacer el mapeo de la data obtenida por el metodo post ocurre un error al momento de tratar de insertarla en la base de datos, la unica manera que si funciona el metodo es enviando un email de un usuario nuevo (el email no puede repetirse en la tabla usuarios). 
+Es importante recalcar que el metodo post y put no funcionan de manera correcta, creo que me equivoque en el diseño de la base de datos, al hacer el mapeo de la data obtenida por el metodo post ocurre un error al momento de tratar de insertarla en la base de datos, la unica manera que si funciona el metodo es enviando un email de un usuario nuevo (el email no puede repetirse en la tabla usuarios). Una de las ideas que queria implementar verificacion de usuario y JWT, ademas de encriptar la contraseña para guardarla en la base de datos.
 
 Se me dificulto aplicar estos conceptos en el proceso debido que es la segunda vez que trabajo con c#, por lo que si tienen alguna sugerencia se agradece.
